@@ -1,0 +1,147 @@
+body{
+    margin:0%;
+}
+
+header{
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    justify-content: center;
+    background-color:rgb(80, 95, 97);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:aquamarine;
+}
+
+header h1{
+    background-color: aquamarine;
+    padding-left: 18%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    align-items: center;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 0.8fr 0.3fr;
+    grid-template-rows: 1fr;
+}
+
+section h1{
+    background-color: rgb(127, 127, 133);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    justify-content: space-evenly;
+    display: flex;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card1{
+    grid-column:1 / 2;
+    grid-row: 1 / 2;
+    margin:  20px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.card2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin:  20px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-top: auto;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+img{
+padding-left: 2%;
+padding-top: 2%;
+width: 100px;
+height: 150px;
+}
+
+.Resources{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding-left: 10%;
+    margin: 20px; 
+}
+
+.Resources a{
+    text-decoration:none ;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.images img{
+    height: 100px;
+    width: 150px; ;
+    padding-bottom: 10%;
+    padding-right: 5%
+}
+
+footer{
+    background-color: gray;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom:0% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.name p{
+    margin: 1px;
+}
+
+#lastModified{
+    margin: 3px;
+    padding-bottom: 1%;
+}
+
+h3{
+    text-align: center;
+    margin-right: 30%;
+    text-decoration: underline;
+
+}
