@@ -43,7 +43,7 @@ main{
     grid-template-rows: 1fr;
 }
 
-section h1{
+section h2{
     background-color: rgb(127, 127, 133);
     margin-top: 0%;
     margin-bottom: 0%;
@@ -140,9 +140,11 @@ footer{
     padding-bottom: 1%;
 }
 
-h2{
+h3{
     text-align: center;
     margin-right: 30%;
     text-decoration: underline;
 
 }
+
+
