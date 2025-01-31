@@ -1,0 +1,15 @@
+body{
+    margin: 0%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    justify-content: center;
+}
+
+nav{
+    justify-content: center;
+    background-color: white;
+}
