@@ -14,6 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
   // Update the last modified date
+  const currentYearSpan = document.getElementById('currentyear');
+ const currentYear = new Date().getFullYear(); 
+ currentYearSpan.textContent = currentYear;
   const lastModified = document.getElementById('lastModified');
   lastModifiedParagraph.textContent = `Last Modified: ${lastModifiedDate}`;
 });
