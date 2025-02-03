@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Update the last modified date
   const lastModified = document.getElementById('lastModified');
-  lastModified.textContent = Last Modification: ${document.lastModified};
+  lastModifiedParagraph.textContent = `Last Modified: ${lastModifiedDate}`;
 });
 
 // Adjust main content margin when resizing to larger screens
