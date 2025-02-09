@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Baraza John Brick">
+    <meta name="description" content="WDD Dynamic Web Fundamentals Responsive Image page">
+    <title>Country page of Uganda, a place I would love to visit</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <header> 
+        <h1>Uganda</h1>
+    </header>
+    <main>
+        <picture class="bk-img">
+            <source media="(max-width: 500px)" srcset="images/Nature-s.webp">
+            <source media="(min-width: 501px) and (max-width: 1000px)" srcset="images/Nature.webp">
+            <source media="(min-width: 1001px)" srcset="images/Nature.webp">
+            <img src="images/Nature.webp" alt="Savanna">
+        </picture>
+
+        <div class="data">
+            <table>
+                <tr>
+                    <th colspan="2">DATA</th>
+                </tr>
+                <tr>
+                    <td><strong>Area:</strong></td>
+                    <td>100,000 sq km</td>
+                </tr>
+                <tr>
+                    <td><strong>Population:</strong></td>
+                    <td>50,000,000</td>
+                </tr>
+                <tr>
+                    <td><strong>Capital:</strong></td>
+                    <td>Kampala</td>
+                </tr>
+                <tr>
+                    <td><strong>Languages:</strong></td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td><strong>Currency:</strong></td>
+                    <td>Uganda Shillings</td>
+                </tr>
+                <tr>
+                    <td><strong>Calling Code:</strong></td>
+                    <td>+256</td>
+                </tr>
+                <tr>
+                    <td><strong>Internet TLD:</strong></td>
+                    <td>.UG</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="weather">
+            <table class="weather">
+                <tr>
+                    <th colspan="2" class="weather-heading">WEATHER<img src="images/iconz.svg" alt="weather-icon" class="weather-img">
+                    </th>
+                </tr>
+                <tr>
+                    <td><strong>Temperature:</strong></td>
+                    <td>20°C</td>
+                </tr>
+                <tr>
+                    <td><strong>Wind Speed:</strong></td>
+                    <td>10 km/h</td>
+                </tr>
+                <tr>
+                    <td><strong>Wind Chill:</strong></td>
+                    <td><span id="windChillValue"></span></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>
+            &copy;<span id="currentYear"></span> Ambayo Ronnie Jinja, Uganda<br>
+        </p>
+        <p id="lastModified"></p> 
+    </footer>
+</body>
